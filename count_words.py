@@ -7,7 +7,5 @@ def count_words_in_file(filename):
     except FileNotFoundError:
         print("Файл не знайдено.")
         return 0
-
-
 word_count = count_words_in_file("quote.txt")
 print(f"Кількість слів у файлі: {word_count}")
